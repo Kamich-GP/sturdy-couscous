@@ -13,10 +13,3 @@ class GoalKeeper(Player):
     def save(self):
         print('Поймал мяч')
 
-
-class Striker(Player):
-    def __init__(self, power, speed, accuracy, stamina):
-        super().__init__(power, speed, accuracy, stamina)
-
-    def goal(self):
-        print('Забил мяч в ворота')
